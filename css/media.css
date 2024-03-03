@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    .masonry-grid{
+    }
+    .row{
+        
+    }
+
+    .mgi2 {
+ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+
+    }
+    .mgi2 img{
+    order: 2;      
+}
+
+    .mgi2 h2,
+    .mgi2 p {
+        order: 1;
+}
+}
+/* @media only screen and (max-width: 828px) {
+    .mgi3 img{
+       margin-left: 100%;
+       margin-top: -40%;
+    }
+    
+} */
+
+.ft1{
+    margin-left: 20%;
+    padding-right: 0px;
+}
